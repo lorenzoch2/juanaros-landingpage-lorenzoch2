@@ -3,16 +3,13 @@
     padding: 0;
 }
 
-.watch {
-    height: 400px;
-    width: 600px;
-    border: 2px solid grey;
-    object-fit: cover;
+body {
+    background-color: beige;
 }
 
 header {
     background-image: url(../img/header.jpg);
-    padding: 80px;
+    padding: 40px;
     color: rgb(255, 255, 255);
     font-family: Karla, sans-serif;
     font-style: italic;
@@ -21,30 +18,14 @@ header {
     background-position: center;
 }
 
+.row {
+    margin: 3% 7%;
+}
+
 footer {
     background-color: black;
     color: aliceblue;
     text-align: center;
     padding: 20px;
     font-family: Karla, sans-serif;
-    margin-bottom: 20px;
-    
-}
-
-.product {
-    padding: 30px;
-    font-family: Karla, sans-serif;
-    font-weight: bolder;
-    display: flex;
-    
-}
-
-div p {
-    margin-top: 10%;
-    padding-left: 60px;
-    text-align:justify;
-}
-
-body {
-    background-color: beige;
 }
